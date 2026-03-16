@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Bree+Serif&family=Krona+One&family=Lilita+One&display=swap');
+
+
+body {
+    font-family: Albert Sans, sans-serif;
+    background-image: url(img/background.gif);
+    background-position: cover;
+    background-size: 100vh;
+}
+
+.perfil {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 1px 1px 20px 1px darkslateblue;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;         
+  margin: 5px 120px;
+  padding: 4px 15px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  background-color: darkslateblue;
+  color:white
+}
+
+.nav-links {
+  display: flex;                
+  list-style: none;             
+  gap: 20px;              
+  text-decoration: none;
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-bar p:nth-of-type(1) {
+    font-family: Lilita One, sans-serif;
+    font-size: 20px;
+}
+
+.home {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+}
+
+.section-one {
+    height: 100vh;
+}
+
+.curriculo {
+    background-color: #483d8b;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 90px;
+    text-align: center;
+}
+
+.curriculo a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+h1 {
+    color:darkslateblue;
+    font-family: Bree Serif;
+    margin: 0;
+    font-size: 50px;
+}
+
+.apresentacao p:first-of-type {
+    margin-bottom: 12px;
+}
+h4 {
+    margin-top: 5px;
+}
+
+.logo-linkedin, .logo-github {
+    width: 30px;
+    height: 30px;
+    padding: 10px 2px;
+}
+
+.titulo-section2 {
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 30px;
+    font-family: Lilita One, sans-serif;
+}
+
+.sobreMim {
+    margin: 0 180px;
+}
+
+.visao, .organizacao, .design {
+    display: flex;
+}
+
+.visao p, .organizacao p, .design p {
+    margin: 5px 20px;
+}
+
+.visao span, .organizacao span, .design span {
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+hr {
+    margin: 40px 0;
+}
+
+.habilidades, .diferencial, .experiencia, .experiencia p {
+    margin: 30px 0;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+}
+
+.projetos {
+    display: flex;
+    justify-content: center;
+}
+
+.projeto-senha, .projeto-catraca, .projeto-ingresso {
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 20px;
+    margin: 40px;
+}
+
+.section-three h2, .section-three p {
+    margin:  10px 0 0 90px;
+}
+
+.projetos img {
+    height: 180px;
+    width: 365px;
+    border-radius: 20px;
+}
+
+.projetos h3 {
+    margin-left: 10px;
+}
+
+.projetos p {
+    margin: 10px;
+    text-align: center;
+}
+
+.a-links {
+    margin: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.deploy, .repositorio {
+    margin: 0 20px;
+    background-color: #d4d4d4;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.a-links a {
+    text-decoration: none;
+    color: black
+}
