@@ -326,8 +326,7 @@ body.dark-mode .logo-linkedin, body.dark-mode .logo-github {
 /*===============================================================================================================*/
 
 @media (max-width: 768px) {
-    
-    /* 1. Ajuste da Navegação */
+
     .nav-bar {
         margin: 5px 10px; 
         flex-direction: column; 
