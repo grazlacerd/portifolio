@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script href="script.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
    <section class="section-one">
@@ -17,8 +17,9 @@
             <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#sobreMim">Sobre Mim</a></li>
-            <li><a href="#projetos">Área de Estudo</a></li>
+            <li><a href="#projetos">Projetos</a></li>
             <li><a href="#contato">Contato</a></li>
+            <li><a href="#" id="dark-mode-toggle"><img src="img/sol-lua.png" alt="icom tema sol e lua" width="20" height="20"></a></li>
             </ul>
         </nav>
     </header>
@@ -33,7 +34,7 @@
                 Apaixonada por tecnologia <br>
                 Front-End e Back-End.
             </p>
-            <div class="curriculo"><a href="#">Currículo</a>
+            <div class="curriculo"><a href="img/Currículo - Grazielly Gonçalves Lacerda.pdf" target="_blank">Currículo</a>
                 <img src="img/curriculo.svg" alt="icon paper" width="17" height="17">
             </div>
             <a  href="https://www.linkedin.com/in/grazielly-lacerda-813157303/" target="_blank">
@@ -50,7 +51,8 @@
   </section>
 
   <section class="section-two" >
-    <h2 class="titulo-section2">Sobre Mim</h2>
+    <h2>Sobre Mim</h2>
+    <hr>
     <div class="sobreMim" id="sobreMim">
 
         <div class="habilidades">
@@ -58,7 +60,7 @@
             <p>Curso Técnico Full Stack desde out/2025 e a partir de então, o desenvolvimento web se tornou o meu maior foco.<br>
                 Nesses 5 meses obtive conhecimentos sobre HTML e CSS, onde exploramos ambas as liguagens para um bom desenvolvimento.<br>
                 Neste momento estamos aprimorando o nosso conhecimento no JS, colocando em prática o nosso conhecimento ao invés de trabalhar somente na teoria.<br>
-                Também vimos alguns softwares que encrementam na nossa área, como o Github e Git, Figma e especialmente o VScode.</p>
+                Também vimos alguns softwares que encrementam na nossa área, como o GitHub e Git, Figma e especialmente o VScode.</p>
         </div>
         <hr>
         <div class="diferencial">
@@ -96,7 +98,6 @@
                 <li>OneDrive</li>
                 <li>SharePoint</li> 
             </ul>
-            <hr>
             </div>
         </div>
 
@@ -105,6 +106,7 @@
 
   <section class="section-three" id="projetos">
     <h2>Projetos</h2>
+    <hr>
     <p>Primeiros projetos realizados em sala de aula utilizando HTML, CSS e JS.</p>
     <div class="projetos">
 
@@ -115,8 +117,14 @@
             <p>Um projeto realizado para verificar o cadatro de uma senha imaginária.</p>
 
             <div class="a-links">
-                <div class="deploy"><a href="https://grazlacerd.github.io/projeto-senha/" target="_blank">Deploy</a></div>
-                <div class="repositorio"><a href="https://github.com/grazlacerd/projeto-senha" target="_blank">Repositório</a></div>
+                <div class="deploy">
+                    <a href="https://grazlacerd.github.io/projeto-senha/" target="_blank">Deploy</a>
+                    <img src="img/open.svg">
+                </div>
+                <div class="repositorio">
+                    <a href="https://github.com/grazlacerd/projeto-senha" target="_blank">Repositório</a>
+                    <img src="img/open.svg">
+                </div>
             </div>
 
         </div>
@@ -127,8 +135,14 @@
             <p>Um projeto realizado para vericar a idade e passe vip do cliente.</p>
 
             <div class="a-links">
-                <div class="deploy"><a href="https://grazlacerd.github.io/projeto-portaria/" target="_blank">Deploy</a></div>
-                <div class="repositorio"><a href="https://github.com/grazlacerd/projeto-portaria" target="_blank">Repositório</a></div>
+                <div class="deploy">
+                    <a href="https://grazlacerd.github.io/projeto-portaria/" target="_blank">Deploy</a>
+                    <img src="img/open.svg">
+                </div>
+                <div class="repositorio">
+                    <a href="https://github.com/grazlacerd/projeto-portaria" target="_blank">Repositório</a>
+                    <img src="img/open.svg">
+                </div>
             </div>
 
         </div>
@@ -139,14 +153,44 @@
             <p>Um projeto realizado para verificar o valor nessesário para um ingresso.</p>
 
             <div class="a-links">
-                <div class="deploy"><a href="https://grazlacerd.github.io/projeto-contador/" target="_blank">Deploy</a></div>
-                <div class="repositorio"><a href="https://github.com/grazlacerd/projeto-contador" target="_blank">Repositório</a></div>
+                <div class="deploy">
+                    <a href="https://grazlacerd.github.io/projeto-contador/" target="_blank">Deploy</a>
+                    <img src="img/open.svg">
+                </div>
+                <div class="repositorio">
+                    <a href="https://github.com/grazlacerd/projeto-contador" target="_blank">Repositório</a>
+                    <img src="img/open.svg">
+                </div>
             </div>
 
         </div>
 
     </div>
   </section>
+
+  <section class="section-four" id="contato">
+    <h2>Contato e Redes Sociais</h2>
+    <hr>
+    <div class="contato">
+        
+    <div class="link-contato">
+        <a href="www.linkedin.com/in/grazielly-lacerda-813157303">Linkedin</a>
+    </div>
+    <div class="link-contato">
+        <a href="mailto:graziilacerda19@gmail.com">Email </a>
+    </div>
+    <div class="link-contato">
+        <a href="https://github.com/grazlacerd/">GitHub</a>
+    </div>
+
+    </div>
+  </section>
+
+  <footer>
+      <div class="footer">
+          <p>Ⓒ Grazielly Lacerda</p>
+      </div>
+  </footer>
   
 </body>
 </html>
